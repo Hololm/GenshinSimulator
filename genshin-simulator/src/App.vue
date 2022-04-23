@@ -11,7 +11,13 @@
       </el-select>
     </div>
   <div class="bannerImage">
-    <img v-bind:src="'../gacha-banners/' + value + '.png'" :alt="value">
+    <img v-bind:src="'../gacha-banners/charbanner/' + value + '.png'" :alt="value" style="padding: 10px">
+    <div class="details">
+      <el-row>
+      <el-button round plain color="#f2b738" @click="">Details</el-button>
+      <el-button round plain color="#f2b738" @click="">Inventory</el-button>
+      </el-row>
+    </div>
   </div>
   </body>
 </template>

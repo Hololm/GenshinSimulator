@@ -18,9 +18,15 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 65%;
     top: 100px;
 }
+
+.details {
+    position: relative;
+    font-weight: bold;
+}
+
 
 * {
     cursor: url('src/assets/cursor.png'), auto;
