@@ -1,13 +1,21 @@
-<script setup>
-
-</script>
-
 <template>
   <body>
   <div>
-  <h1 class="text-3xl font-bold underline color-blue">
-    hello world!
-  </h1>
+    <button @click="count++">{{ count }}</button>
   </div>
   </body>
 </template>
+
+<script>
+export default {
+  name: "App",
+  data() {
+    return {
+      count: 0
+    }
+  },
+  methods: {
+
+  }
+}
+</script>
