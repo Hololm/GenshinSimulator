@@ -3,8 +3,17 @@ import App from './App.vue'
 import './index.css'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
+import { createRouter, createWebHistory }  from "vue-router";
+import { routes } from "./router/router.js";
 
-const app = createApp(App)
+const router = createRouter({
+    history: createWebHistory(),
+    routes: routes,
+});
 
-app.use(ElementPlus)
-app.mount('#app')
+
+const app = createApp(App);
+
+app.use(ElementPlus);
+app.use(router);
+app.mount('#app');
