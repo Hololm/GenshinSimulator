@@ -19,14 +19,19 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 65%;
-    top: 100px;
+    top: 70px;
 }
 
 .details {
     position: relative;
-    font-weight: bold;
+    top: 30px;
 }
 
+.wish {
+    position: relative;
+    left: 75%;
+    top: 70px;
+}
 
 * {
     cursor: url('src/assets/cursor.png'), auto;
