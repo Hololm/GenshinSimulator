@@ -61,7 +61,7 @@ const options = [
     label: 'Xiao',
   },
   {
-    value: 'Hu Tao',
+    value: 'Hutao',
     label: 'Hu Tao',
   },
   {
@@ -69,11 +69,11 @@ const options = [
     label: 'Eula',
   },
   {
-    value: 'Kaedehara Kazuha',
+    value: 'Kazuha',
     label: 'Kaedehara Kazuha',
   },
   {
-    value: 'Kamisato Ayaka',
+    value: 'Ayaka',
     label: 'Kamisato Ayaka',
   },
   {
@@ -81,15 +81,15 @@ const options = [
     label: 'Yoimiya',
   },
   {
-    value: 'Raiden Shogun',
+    value: 'Raidenshogun',
     label: 'Raiden Shogun',
   },
   {
-    value: 'Sangonomiya Kokomi',
+    value: 'Kokomi',
     label: 'Sangonomiya Kokomi',
   },
   {
-    value: 'Arataki Itto',
+    value: 'Itto',
     label: 'Arataki Itto',
   },
   {
@@ -97,16 +97,12 @@ const options = [
     label: 'Shenhe',
   },
   {
-    value: 'Yae Miko',
+    value: 'Yaemiko',
     label: 'Yae Miko',
   },
   {
-    value: 'Kamisato Ayato',
+    value: 'Ayato',
     label: 'Kamisato Ayato',
-  },
-  {
-    value: 'Yelan',
-    label: 'Yelan',
   },
 ]
 </script>
