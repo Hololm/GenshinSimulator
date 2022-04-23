@@ -7,6 +7,10 @@ body {
     background-size: cover;
 }
 
+.bannerName {
+
+}
+
 * {
     cursor: url('src/assets/cursor.png'), auto;
 }
