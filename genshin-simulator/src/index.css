@@ -31,12 +31,13 @@ body {
 .wish {
     position: relative;
     left: 75%;
-    top: 70px;
+    top: 60px;
 }
 
 .el-button:hover {
     cursor: url('src/assets/cursor.png'), auto;
 }
+
 * {
     cursor: url('src/assets/cursor.png'), auto;
 }
