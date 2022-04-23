@@ -1,7 +1,9 @@
 <template>
   <body>
   <div>
-    <button @click="count++">{{ count }}</button>
+    <div>
+      <button @click="count++">{{ count }}</button>
+    </div>
   </div>
   </body>
 </template>
@@ -19,3 +21,6 @@ export default {
   }
 }
 </script>
+<style>
+
+</style>
