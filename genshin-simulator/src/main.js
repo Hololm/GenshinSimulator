@@ -11,7 +11,6 @@ const router = createRouter({
     routes: routes,
 });
 
-
 const app = createApp(App);
 
 app.use(ElementPlus);

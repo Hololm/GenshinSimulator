@@ -33,6 +33,9 @@ body {
     left: 75%;
     top: 60px;
 }
+#wish-vid {
+    background-size: cover;
+}
 
 .el-button:hover {
     cursor: url('src/assets/cursor.png'), auto;

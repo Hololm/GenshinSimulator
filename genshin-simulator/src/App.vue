@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: "App.vue"
+  name: "App.vue",
 }
 
 </script>
